@@ -7,7 +7,7 @@ global.Api = {
 }
 
 // Apikey Website Api
-global.ApiKey = 'coderevolution' //JIKA INGIN MENDAPATKAN KOMISI DAFTAR DI HTTPS://AMPIBISMM.MY.ID UNTUK MENDAPATKAN APIKEY!
+global.ApiKey = 'https://ampibismm.my.id' //JIKA INGIN MENDAPATKAN KOMISI DAFTAR DI HTTPS://AMPIBISMM.MY.ID UNTUK MENDAPATKAN APIKEY!
 
 global.smm = {
   nomor : '6288980870067',
