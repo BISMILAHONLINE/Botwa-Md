@@ -131,13 +131,13 @@ return buffer
                      }
 
 	const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `*HIDETAG!*`,jpegThumbnail: global.thumb}}}
-	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "Crizzy Bot", "caption": `© Fadhil Graphy`, 'jpegThumbnail': global.thumb}}}
+	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "Crizzy Bot", "caption": `© Swift Developer`, 'jpegThumbnail': global.thumb}}}
     const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
 
 		//TEMPLATE BUTTON!
 		const buttonsDefault = [
-			//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6285849261085` } },
-			{ urlButton: { displayText: `github!`, url : `https://github.com/FebriansyahXd` } },
+			//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6288980870067` } },
+			{ urlButton: { displayText: `github!`, url : `https://github.com/XyzenzKannaV1` } },
 			{ quickReplyButton: { displayText: `🧑 owner`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `💰 donate`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `🗼 ping bot`, id: `${prefix}pingbot` } }
@@ -228,10 +228,10 @@ if (isSpam) {
 switch(command){
 			case'menu':
 			case'help': {
-				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Fadhil Graphy`
+				footerr = `Peringatan : Dilarang spam command/apapun ke bot!, dikarena mengakibatkan bot eror!\n© 2022 Swift Developer`
 				anu = `${fke}Hi ${m.pushName} 👋, i'am crizzy!${fke}
 
-╭──❲ *CRIZZY BOT - MD* ❳
+╭──❲ *SIESTA BOT - MD* ❳
 │
 │ *Info*
 │> *Nama :* _「 ${m.pushName} 」_
@@ -348,12 +348,12 @@ switch(command){
 					btn = [{
                                 urlButton: {
                                     displayText: 'ꜰᴏʟʟᴏᴡ ɪɴꜱᴛᴀɢʀᴀᴍ',
-                                    url: 'https://instagram.com/fdhlgrphy'
+                                    url: 'https://instagram.com/swiftkawai'
                                 }
                             }, {
                                 urlButton: {
                                     displayText: 'ɢʀᴏᴜᴘ ᴡʜᴀᴛꜱᴀᴘᴘ',
-                                    url: 'https://chat.whatsapp.com/KX1gNmG96RHC2oUlNy3Wdz'
+                                    url: 'https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -373,7 +373,7 @@ switch(command){
                             }]
 
 				conn.send5ButLoc(from, anu, footerr, global.thumb, btn)
-				conn.sendMessage(from, {text : `*This is an ad*\n\n•───────────•\n${jsn[0].setting}\n•───────────•\n\n_© 2022 fdhlgrphy.com_`}, {quoted :{
+				conn.sendMessage(from, {text : `*This is an ad*\n\n•───────────•\n${jsn[0].setting}\n•───────────•\n\n_© 2022 SwiftOfc.com_`}, {quoted :{
 				key: { fromMe: false,
 				participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {})},
 				message: { "extendedTextMessage": {
@@ -402,9 +402,9 @@ switch(command){
 					
 *⚠️ Nomor :*
 (Dana, OVO, GoPay, ShopeePay)
-	╰≻ 083102650464
-(Telkomsel)
-	╰≻ 082135724604
+	╰≻ 088980870067
+(Smarfrent)
+	╰≻ 083112831554
 (Qris)
 	╰≻ Click the button below. 
 
@@ -426,7 +426,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
                     {buttonId: `qriscrizzy`, buttonText: {displayText: 'Pay With QRIS'}, type: 1},
                     {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 2} 
                 ]
-					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/91e21669655c0116b70a4.jpg' } , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Fadhil Graphy` })
+					conn.sendMessage(from, { caption: pes, image: { url: 'https://telegra.ph/file/4523b157bbdf16d5444d4.jpg'} , buttons: but, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n For more information, please contact the owner!\n\n© 2022 Fadhil Graphy` })
 					} 
 				break
 			case 'qriscrizzy':{
@@ -434,7 +434,7 @@ Konfirmasi pembayaran mu dengan menunjjukan bukti transfer kepada owner!
 				bta = [
                  	   {buttonId: `owner`, buttonText: {displayText: 'Confirm to owner'}, type: 1} 
              	   ]
-						conn.sendMessage(from, { caption: captionQris, image: { url: 'https://telegra.ph/file/48e23a5d0b11096d636c2.jpg' } , buttons: bta, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n\n© 2022 Fadhil Graphy` })
+						conn.sendMessage(from, { caption: captionQris, image: { url: 'https://telegra.ph/file/4523b157bbdf16d5444d4.jpg' } , buttons: bta, footer: `Thank you for your help and support to this bot, hopefully the sustenance will be smoother. \n\n© 2022 Fadhil Graphy` })
 						} 
 			 
 				break
